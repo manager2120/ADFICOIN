@@ -82,7 +82,7 @@ const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
 
 const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by default, blocks ids count in synchronizing
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by default, blocks count in blocks downloading
-const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
+const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  5000;
 
 //TODO This port will be used by the daemon to establish connections with p2p network
 const int      P2P_DEFAULT_PORT                              = 55333;
